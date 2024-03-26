@@ -3,47 +3,50 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/styles.css" />
     <title>Weather Application</title>
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Find a city..." />
-        <input type="submit" value="Search" />
-      </form>
-    </header>
-    <main>
-      <div>
-        <h1>Glasgow</h1>
-        <p>
-          Weekday Current time, weather pattern
-          <br />
-          Humidity: Percent, Wind: km/h
-        </p>
-      </div>
-      <div>(emoji)<strong>TEMP</strong>°C</div>
-    </main>
-    <hr />
-    <footer>
-      Coded by
-      <a href="https://github.com/kelseytheghost" target="_blank"
-        >Kelsey Adley</a
-      >
-      , is open-sourced on
-      <a
-        href="https://github.com/kelseytheghost/vanilla-weather"
-        target="_blank"
-      >
-        GitHub
-      </a>
-      and hosted on
-      <a
-        href="https://app.netlify.com/sites/ghosts-vanilla-weather-app/"
-        target="_blank"
-      >
-        Netlify
-      </a>
-    </footer>
+    <div class="weather-app">
+      <header>
+        <form>
+          <input type="search" placeholder="Find a city..." />
+          <input type="submit" value="Search" />
+        </form>
+      </header>
+      <main>
+        <div>
+          <h1>Glasgow</h1>
+          <p>
+            Weekday Current time, weather pattern
+            <br />
+            Humidity: Percent, Wind: km/h
+          </p>
+        </div>
+        <div>(emoji)<strong>TEMP</strong>°C</div>
+      </main>
+      <hr />
+      <footer>
+        Coded by
+        <a href="https://github.com/kelseytheghost" target="_blank"
+          >Kelsey Adley</a
+        >
+        , is open-sourced on
+        <a
+          href="https://github.com/kelseytheghost/vanilla-weather"
+          target="_blank"
+        >
+          GitHub
+        </a>
+        and hosted on
+        <a
+          href="https://app.netlify.com/sites/ghosts-vanilla-weather-app/"
+          target="_blank"
+        >
+          Netlify
+        </a>
+      </footer>
+    </div>
     <script src="src/script.js"></script>
   </body>
 </html>
