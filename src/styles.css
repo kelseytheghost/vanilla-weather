@@ -10,10 +10,15 @@ body {
   max-width: 600px;
   padding: 30px;
 }
+header {
+  border-bottom: 1px solid antiquewhite;
+  padding: 0 0 30px 0;
+}
 .search-bar {
   background-color: rgb(250, 234, 214, 0.5);
   border: none;
   border-radius: 6px;
+
   font-size: 16px;
   padding: 15px 20px;
   width: 80%;
@@ -26,4 +31,37 @@ body {
   font-size: 16px;
   margin-left: 5px;
   padding: 16px 30px;
+}
+main {
+  padding: 30px 0;
+}
+
+.weather-app-data {
+  display: flex;
+  justify-content: space-between;
+}
+.city {
+  font-size: 38px;
+  line-height: 48px;
+  margin: 0;
+}
+.city-details {
+  color: rgba(50, 75, 122, 0.7);
+  font-size: 16px;
+  line-height: 20px;
+}
+.city-details strong {
+  color: rgba(136, 97, 224, 0.9);
+}
+footer {
+  border-top: 1px solid antiquewhite;
+  color: rgba(50, 75, 122, 0.7);
+  font-size: 14px;
+  font-weight: 500;
+  padding: 30px 0 0 0;
+  text-align: center;
+}
+a {
+  color: rgba(214, 128, 51, 0.7);
+  text-decoration: none;
 }
