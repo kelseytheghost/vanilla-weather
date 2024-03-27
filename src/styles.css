@@ -1,5 +1,5 @@
 body {
-  background-color: antiquewhite;
+  background-color: rgb(250, 235, 215);
   font-family: "Play", sans-serif;
 }
 .weather-app {
@@ -24,7 +24,7 @@ header {
   width: 80%;
 }
 .search-button {
-  background: rgba(214, 128, 51, 0.5);
+  background: rgba(214, 128, 51, 0.7);
   border: none;
   border-radius: 6px;
   color: white;
@@ -41,7 +41,7 @@ main {
   justify-content: space-between;
 }
 .city {
-  font-size: 38px;
+  font-size: 45px;
   line-height: 48px;
   margin: 0;
 }
@@ -51,7 +51,23 @@ main {
   line-height: 20px;
 }
 .city-details strong {
-  color: rgba(136, 97, 224, 0.9);
+  color: rgb(136, 97, 224);
+}
+.city-temp-details {
+  display: flex;
+}
+.city-temp-icon {
+  font-size: 50px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.city-temp-value {
+  font-size: 80px;
+  font-weight: 650;
+}
+.city-temp-unit {
+  font-size: 40px;
+  margin-top: 15px;
 }
 footer {
   border-top: 1px solid antiquewhite;
