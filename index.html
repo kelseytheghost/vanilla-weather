@@ -15,11 +15,12 @@
   <body>
     <div class="weather-app">
       <header>
-        <form class="search-form">
+        <form class="search-form" id="search-form">
           <input
             type="search"
             placeholder="Find a city..."
             class="search-bar"
+            id="search-bar"
           />
           <input type="submit" value="Search" class="search-button" />
         </form>
@@ -27,9 +28,9 @@
       <main>
         <div class="weather-app-data">
           <div>
-            <h1 class="city">Glasgow</h1>
+            <h1 class="city" id="city">Glasgow</h1>
             <p class="city-details">
-              Weekday Current time, weather pattern
+              Wednesday 15:07, sunshowers
               <br />
               Humidity: <strong>40%</strong>, Wind:
               <strong>10 km/h</strong>
