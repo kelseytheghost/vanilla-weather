@@ -29,9 +29,13 @@
       <main>
         <div class="weather-app-data">
           <div>
-            <h1 class="city" id="city">Glasgow</h1>
+            <h1 class="city" id="city"></h1>
             <p class="city-details">
-              Wednesday 15:07, sunshowers
+              <span class="current-day" id="current-day">Wednesday</span>
+              <span class="current-time">15:07</span>,
+              <span class="current-conditions" id="current-conditions">
+                sunshowers</span
+              >
               <br />
               Humidity: <strong>40%</strong>, Wind:
               <strong>10 km/h</strong>
@@ -39,7 +43,7 @@
           </div>
           <div class="city-temp-details">
             <div class="city-temp-icon">🌦️</div>
-            <div class="city-temp-value">10</div>
+            <div class="city-temp-value" id="city-temp-value"></div>
             <div class="city-temp-unit">°C</div>
           </div>
         </div>
