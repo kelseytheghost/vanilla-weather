@@ -72,10 +72,15 @@ section {
   display: flex;
   font-size: 13px;
   margin-bottom: 20px;
+  text-align: center;
 }
 .forecast-day {
-  margin: 0 27px;
+  margin: 0 17px;
   text-align: center;
+}
+.forecast-icon {
+  display: block;
+  width: 65px;
 }
 .forecast-temp {
   display: inline-flex;
