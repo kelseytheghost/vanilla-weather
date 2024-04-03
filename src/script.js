@@ -56,7 +56,30 @@ function handleSearchSubmit(event) {
   searchCity(searchInput.value);
 }
 
+function displayForecast() {
+  let days = ["Tues", "Wed", "Thur", "Fri", "Sat"];
+  let forecastHtml = "";
+
+  days.forEach(function (day) {
+    forecastHtml =
+      forecastHtml +
+      `
+<div class="forecast-day">
+  <div class="forecast-date">${day}</div>
+  <div class="forcast-icon">ICON</div>
+  <div class="forecast-temp">
+    <div class="forecast-temp-max">HI</div>
+    <div class="forecast-temp-min"> LOW</div>
+  </div>
+</div>
+`;
+  });
+  let forecastElement = document.querySelector("#forecast");
+  forecastElement.innerHTML = forecastHtml;
+}
+
 let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", handleSearchSubmit);
 
 searchCity("Glasgow");
+displayForecast();

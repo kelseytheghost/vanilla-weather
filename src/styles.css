@@ -69,15 +69,23 @@ section {
   line-height: 20px;
 }
 .forecast-week {
+  display: flex;
   font-size: 13px;
   margin-bottom: 20px;
+}
+.forecast-day {
+  margin: 0 27px;
   text-align: center;
 }
-.day-temp-max {
+.forecast-temp {
+  display: inline-flex;
+}
+.forecast-temp-max {
   color: rgb(214, 128, 51);
   font-weight: bold;
+  padding-inline-end: 5px;
 }
-.day-temp-min {
+.forecast-temp-min {
   color: rgba(214, 128, 51, 0.7);
 }
 footer {
