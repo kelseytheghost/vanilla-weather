@@ -15,7 +15,7 @@ header {
   padding: 0 0 20px 0;
 }
 .search-form {
-  display: block;
+  display: inline-block;
   width: 100%;
 }
 .search-bar {
@@ -24,16 +24,15 @@ header {
   border-radius: 6px;
   font-size: 16px;
   padding: 15px 20px;
-  width: 73%;
+  width: 75%;
 }
 .search-button {
   background: rgba(214, 128, 51, 0.7);
   border: none;
   border-radius: 6px;
   color: white;
-  display: inline-block;
   font-size: 16px;
-  margin-left: 10px;
+  margin-left: 15px;
   padding: 16px 25px;
 }
 main {
