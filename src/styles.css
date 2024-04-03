@@ -14,6 +14,9 @@ header {
   border-bottom: 1px solid antiquewhite;
   padding: 0 0 20px 0;
 }
+.search-form {
+  display: flex;
+}
 .search-bar {
   background-color: rgb(250, 234, 214, 0.5);
   border: none;
