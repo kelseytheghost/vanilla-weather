@@ -15,7 +15,7 @@ header {
   padding: 0 0 20px 0;
 }
 .search-form {
-  display: block;
+  display: flex;
 }
 .search-bar {
   background-color: rgb(250, 234, 214, 0.5);
